@@ -31,7 +31,7 @@ void hashInit(int* hashTable, int* input, int M, int R) {
 				hashTable[index] = key;
 				break;
 			}
-			else if(j == M){
+			else if(j == M-1){
 				printf("Failed to insert %d\n", key);
 			}
 		}
